@@ -1,0 +1,108 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    max-width: 800px; /* Máximo ancho del contenido */
+    margin: auto; /* Centra el contenido */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+/* Estilo de los encabezados */
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px; /* Espacio inferior */
+    text-align: center; /* Centrar encabezados */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave para color */
+}
+
+a:hover {
+    color: #0056b3; /* Color al pasar el ratón */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el hover */
+    font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Estilo de formularios */
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espacio superior */
+}
+
+th, td {
+    padding: 12px; /* Espacio en celdas */
+    border: 1px solid #ddd; /* Línea de borde más suave */
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF; /* Color de fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el ratón por la fila */
+}
+
+/* Estilo de etiquetas de formularios */
+label {
+    font-weight: bold; /* Resaltar etiquetas */
+    margin-top: 10px; /* Espacio superior para separar del campo */
+}
+
+/* Estilo de mensajes de error */
+.error {
+    color: red; /* Color rojo para mensajes de error */
+    margin-top: 10px; /* Margen superior para separar del formulario */
+}
+
+/* Estilo adicional para el formulario de inicio de sesión y registro */
+form {
+    display: flex;
+    flex-direction: column; /* Para apilar los elementos verticalmente */
+    gap: 15px; /* Espacio entre los elementos del formulario */
+}
+
+/* Estilo del pie de página */
+p {
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espacio superior */
+}
